@@ -1,0 +1,7 @@
+As the semester nears its conclusion, I'd like to take this final report to provide some closing remarks.
+
+## What We've accomplished
+RPI-Kart has come a long way, from a mere design document to a fully playable demo. The game consists of a main menu, as well as a complete demo level with a realistic, high-res aesthetic. There are multiple units to control, with complex systems for movement and line of sight collisions. Units will engage each other when spotted, and have separate collision handling for vision obstructing and non-obstructing hazards. Finally, the demo scene comes equipped with a simple UI overlay, as well as unit health indicators. While it may not have too many bells and whistles, RPI-Kart has nonetheless realized its base goal of providing a tactical top down simulation. 
+
+## What We'd Like to See in The Future
+RPI-Kart still has so much room for growth, and now the tools are there to facilitate it. Levels are now stored in and loaded entirely from external JSON files, meaning the potential for modding and custom levels is already present. Units, Vision Cones, Walls, Obstacles, and more are all stored in separate, well documented prefabs, making for a codebase that is clean, readable, and ready for future extension, And of course, our use of the well established Unity game engine means that there couldn't be a lower barrier to entry for future developers who may be interested in taking up the reins. At the end of the day, I'm excited to see what the future of this project holds.
