@@ -2,15 +2,17 @@
 
 > In this section, you can write about what you accomplished in the previous week.
 
-> This past week I continued work on LLVM code generation in Python. Adapting the Kaleidoscope 
-> LLVM tutorial to match our language syntax has proved challenging, but should be completed soon.
+> This past week I begain seriously working on LLVM code generation in Python. Adapting the 
+> Kaleidoscope LLVM tutorial to match our language syntax has proved challenging due to the  
+> structural differences between our AST (which is produced from a lambda calculus-lile syntax)
+> and the Kaleidoscope AST (which more closely resembles imperative logic).
 
 ## This Week's Plan
 
 > In this section, you can write about what you have planned for next week.
 
-> This week I intend to have LLVM code generation fully functional in Python. This is a continuation
-> of my efforts since last week.
+> This week I intend to continue working towards naive code generation through LLVM, in order to build a
+> foundation for full code generation in the coming weeks.
 
 ## Anything Blocking?
 
