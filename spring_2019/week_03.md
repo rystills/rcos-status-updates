@@ -4,8 +4,9 @@
 
 > This past week I spent a lot of time working with and documenting the install process for LLVM 
 > on Windows. Ultimately, I decided to switch the LLVM code generation from C++ to Python, as the 
-> LLVM-Lite Python package is much easier to install and work with. I have since continued working 
-> on the code generation in Python.
+> LLVM-Lite Python package is much easier to install and work with. Regardless of which language is
+> used, however, LLVM must be installed properly before any code can be generated, so it is crucial
+> for me to take my time and document the steps I have taken to help contributors who come after me.
 
 ## This Week's Plan
 
